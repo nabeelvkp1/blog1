@@ -1,0 +1,19 @@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+<div id="oper"></div>
+<div id="vid"></div>
+<script>
+ player = new Clappr.Player({
+ source: "https://prod-ent-live-gm.jiocinema.com/hls/live/2099118/hd_akamai_merged_avc_mal_isl111/master.m3u8",
+ mimeType: "application/x-mpegURL",
+   
+ watermark : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj5MsTeh3bI1KtWX1mmARbSCyJbmISG5tV0S_HmmJ5BShhMoNFmmc6o7f3Spw1UJ_weWbt-BgPumi82E5fyqU04X6Llqdn7fi1HyVqfJcHkdwPuzIz_HwGmd9SQicwjG-IVVC3228CspH_trcOBwQEc_Hkp8s0LhvD4CkQCRMRPK8JOm61KFD2shheVec/s3264/20240204_112913.jpg', position: 'top-right', watermarkLink: 'https://chat.whatsapp.com/ER15aGSpdncI272bxnFVse',
+   
+ poster: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC3kglo5AxqRN_-xAluSwdfYVSMetr_bY_C4oP6QmrdwWNkql32lDmtaponYPm_cXIBlaFEDRFhLTSX26ghmlAL-z2tp-R_xO8SstH5MNj2LTRV8a8c9vV46OG0gmtD-cOJ0rxAx9hD81FDzBWExFzKDhwLLqunkTQSnDTbU4Y_GfOkOdKC_qc42cve3M/s600/thumbnail.png',
+   
+ autoPlay: false, 
+ height: "410",
+ width: "100%",
+ plugins: {"core": [LevelSelector]}, 
+ parentId: "#vid"});
+</script>
